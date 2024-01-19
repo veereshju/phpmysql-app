@@ -17,6 +17,6 @@ spec:
       containers:
       - name: db 
         image: sreedocker123/phpmysqlecommmysql:updated 
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 3306 
