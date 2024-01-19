@@ -17,6 +17,6 @@ spec:
       containers:
       - name: ecommwebphp
         image: sreedocker123/phpmysqlecommerceapp:latest 
-        imagePullPolicy: Never
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
