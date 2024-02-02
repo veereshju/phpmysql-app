@@ -19,7 +19,7 @@ services:
           command: --default-authentication-plugin=mysql_native_password
           restart: always
           environment:
-            MYSQL_ROOT_PASSWORD: Msois@123
+            MYSQL_ROOT_PASSWORD: root
             MYSQL_DATABASE: myecommerce
             MYSQL_USER: msois
             MYSQL_PASSWORD: Msois@123
